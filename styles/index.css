@@ -1,0 +1,361 @@
+@import url('stile.css');
+body{
+    
+    background-image: url(../img/teste.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    width: 67%;
+}
+
+
+
+.imagem-container {
+    position: relative;
+    display: inline-block;
+}
+
+.imagem-site {
+    width: 100%;
+    height: auto;
+    /* background-color: blue; */
+}
+
+/* Estilos para o texto, inicialmente escondido abaixo da imagem */
+.texto {
+    position: absolute;
+    bottom: -30px;  
+    left: 50%;
+    transform: translateX(-50%); 
+    font-size: 1.7rem;
+    color: var(--color-primary4);
+    padding: 10px;
+    display: none;  
+    transition: bottom 0.3s ease;  
+    margin-left: 345%;
+    width: 100%;
+    margin-top: 300px;
+    gap: 40px;
+}
+
+/* Quando passar o mouse sobre a imagem, o texto aparece abaixo dela */
+.imagem-container:hover .texto {
+    display: block;
+    bottom: -40px; /* Ajuste da posição para dar um pequeno espaço abaixo */
+}
+
+/* .area-imagens{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 184%;
+    margin-top: -45%;
+   
+}   */
+
+.mephiles{
+    margin-top:20px;
+}
+
+
+.imagem-site{
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    /* background-color: purple; */
+    transition: tranform 0.3s ease;
+    margin-left: 320%;
+    margin-top: -72%;
+    gap: 20px;
+    box-shadow: 5px 0px 12px 4px var(--color-neutra1),
+                10px 5px 24px 8px var(--color-neutra1),
+                15px 10px 48px 16px var(--color-neutra1); 
+}
+.imagem-site:hover{
+    box-shadow: 5px 0px 12px 4px var(--color-primary4),
+                10px 5px 24px 8px var(--color-primary4),
+                15px 10px 48px 16px var(--color-primary4); 
+                
+}
+
+
+.frase-gamer{
+    width: 100%;
+    height: 130px;  
+    display: flex;
+    padding-left: -34px;
+    margin-top: 23px ;
+    margin-left: -7%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titulo{
+    color: var(--color-primary4); 
+    text-transform: uppercase;
+    width: 50%;
+    text-align: center;
+    font-size: 2.3rem;
+    margin-left: -0.5%;
+    margin-top: 8%;
+    text-shadow: 0 0 10px gold,
+                 0 0 20px gold,
+                 0 0 40px gold,
+                 0 0 80px gold;
+
+}
+.area-titulo-site{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.titulo-site{
+    font-size: 2.5rem;
+    color: var(--color-primary4); 
+    padding-left: -23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 10px gold,
+                 0 0 20px gold,
+                 0 0 40px gold,
+                 0 0 80px gold;
+}
+
+.descricao{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-left: 25px;
+}
+
+.descricao .tails{
+    color: var(--color-neutra1);
+    font-size: 1.8rem;
+    margin-top: 8%;
+    width: 800px;
+    height: 200px;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+.descricao span{
+    color: var(--color-primary4);
+    text-shadow: 0 0 10px gold,
+                 0 0 20px gold,
+                 0 0 40px gold,
+                 0 0 80px gold;
+}
+
+.frase-daora{
+    color: var(--color-neutra0);
+    width: 100%;
+    height: 130px;
+    display: flex;
+    padding-left: -34px;
+    margin-top: 43% ;
+    margin-left: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.subtitulo{
+    color: var(--color-primary4); 
+    text-transform: uppercase;
+    width: 50%;
+    text-align: center;
+    font-size: 2.3rem;
+    margin-left: -7.4%;
+    margin-top: -27%;
+    text-shadow: 0 0 10px gold,
+                 0 0 20px gold,
+                 0 0 40px gold,
+                 0 0 80px gold;
+
+}
+
+
+.descricao-daora{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    gap: 11px;
+    margin-left: 25px;
+    margin-top: 10%;
+
+}
+
+.descricao-daora .sonic{
+    color: var(--color-neutra1);
+    font-size: 1.8rem;
+    margin-top: -5%;
+    width: 800px;
+    height: 220px;
+    text-align: justify; 
+    margin-left: 5%;
+    margin-top: -80%;
+
+}
+
+.descricao-daora span{
+    color: var(--color-primary4);
+    text-shadow: 0 0 10px gold,
+                 0 0 20px gold,
+                 0 0 40px gold,
+                 0 0 80px gold;
+}
+
+
+.area-daora{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 169%;
+    margin-top: -45%;
+    
+
+}
+
+.imagem-daora{
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    margin-top: -74%;
+    margin-left: 320%;
+    box-shadow: 5px 0px 12px 4px var(--color-neutra1),
+                10px 5px 24px 8px var(--color-neutra1),
+                15px 10px 48px 16px var(--color-neutra1);
+    
+}
+
+.imagem-daora:hover{
+    box-shadow: 5px 0px 12px 4px var(--color-primary4),
+    10px 5px 24px 8px var(--color-primary4),
+    15px 10px 48px 16px var(--color-primary4);
+}
+
+
+
+.frase-bacana{
+    color: var(--color-neutra0);
+    width: 100%;
+    height: 130px;
+    display: flex;
+    padding-left: -34px;
+    margin-top: 13% ;
+    margin-left: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.titulo-bacana{
+    color: var(--color-primary4); 
+    text-transform: uppercase;
+    width: 50%;
+    text-align: center;
+    font-size: 2.9rem;
+    margin-left: 43%;
+    margin-top: 6.8%;
+    text-shadow: 0 0 10px gold,
+                 0 0 20px gold,
+                 0 0 40px gold,
+                 0 0 80px gold;
+
+}
+
+.area-bacana{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 17.9%;
+    margin-top: 5.9%;
+    flex-wrap: wrap;
+    
+    
+}
+
+.imagem-bacana1{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    margin-left: 3%;
+    margin-top: 7%;
+    box-shadow: 5px 0px 12px 4px var(--color-neutra1),
+                10px 5px 24px 8px var(--color-neutra1),
+                15px 10px 48px 16px var(--color-neutra1);
+}
+
+.imagem-bacana1:hover{
+    box-shadow: 5px 0px 12px 4px var(--color-primary4),
+    10px 5px 24px 8px var(--color-primary4),
+    15px 10px 48px 16px var(--color-primary4);
+}
+
+.imagem-bacana2{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    margin-left: 20%;
+    margin-top: 7%;
+    box-shadow: 5px 0px 12px 4px var(--color-neutra1),
+                10px 5px 24px 8px var(--color-neutra1),
+                15px 10px 48px 16px var(--color-neutra1);
+}
+
+.imagem-bacana2:hover{
+    box-shadow: 5px 0px 12px 4px var(--color-primary4),
+    10px 5px 24px 8px var(--color-primary4),
+    15px 10px 48px 16px var(--color-primary4);
+}
+
+.imagem-bacana3{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    margin-left: 15%;
+    margin-top: 10%;
+    box-shadow: 5px 0px 12px 4px var(--color-neutra1),
+                10px 5px 24px 8px var(--color-neutra1),
+                15px 10px 48px 16px var(--color-neutra1);
+}
+
+.imagem-bacana3:hover{
+    box-shadow: 5px 0px 12px 4px var(--color-primary4),
+    10px 5px 24px 8px var(--color-primary4),
+    15px 10px 48px 16px var(--color-primary4);
+}
+
+.imagem-bacana4{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    margin-left: 3%;
+    margin-top: 15%;
+    box-shadow: 5px 0px 12px 4px var(--color-neutra1),
+                10px 5px 24px 8px var(--color-neutra1),
+                15px 10px 48px 16px var(--color-neutra1);
+}
+
+.imagem-bacana4:hover{
+    box-shadow: 5px 0px 12px 4px var(--color-primary4),
+    10px 5px 24px 8px var(--color-primary4),
+    15px 10px 48px 16px var(--color-primary4);
+}
