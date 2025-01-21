@@ -359,3 +359,40 @@ body{
     10px 5px 24px 8px var(--color-primary4),
     15px 10px 48px 16px var(--color-primary4);
 }
+
+.mario{
+    color: var(--color-neutra0);
+    width: 100%;
+    height: 130px;
+    display: flex;
+    padding-left: -34px;
+    margin-top: 13% ;
+    margin-left: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.frase-mariana{
+    color: var(--color-primary4); 
+    text-transform: uppercase;
+    width: 50%;
+    text-align: center;
+    font-size: 2.9rem;
+    margin-left: 43%;
+    margin-top: 40.8%;
+    text-shadow: 0 0 10px gold,
+                 0 0 20px gold,
+                 0 0 40px gold,
+                 0 0 80px gold;
+}
+
+.area-mariana{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 17.9%;
+    margin-top: 5.9%;
+    flex-wrap: wrap;
+
+}
