@@ -259,7 +259,7 @@ body{
     text-align: center;
     font-size: 2.9rem;
     margin-left: 43%;
-    margin-top: 6.8%;
+    margin-top: 30.8%;
     text-shadow: 0 0 10px gold,
                  0 0 20px gold,
                  0 0 40px gold,
@@ -274,7 +274,7 @@ body{
     justify-content: space-around;
     align-items: center;
     margin-left: 17.9%;
-    margin-top: 5.9%;
+    margin-top: 30.9%;
     flex-wrap: wrap;
     
     
@@ -378,7 +378,7 @@ body{
     text-align: center;
     font-size: 2.9rem;
     margin-left: 43%;
-    margin-top: 40.8%;
+    margin-top: 99.8%;
     text-shadow: 0 0 10px gold,
                  0 0 20px gold,
                  0 0 40px gold,
@@ -389,10 +389,56 @@ body{
     width: 100%;
     height: 320px;
     display: flex;
-    justify-content: space-around;
+    
     align-items: center;
-    margin-left: 17.9%;
-    margin-top: 5.9%;
+    margin-left: 48.9%;
+    margin-top: 90.9%;
     flex-wrap: wrap;
 
 }
+
+.area-mariana .fa-whatsapp {
+    color: var(--color-neutra1);
+    width: 110%;
+    height: 100%;
+    margin-left: 1000%;
+    margin-top: -300%;
+   
+  
+
+}
+
+.area-mariana .fa-whatsapp:hover{
+    color: var(--color-primary4);
+}
+
+.area-mariana .fa-linkedin {
+    color: var(--color-neutra1);
+    width: 100%;
+    height: 100%;
+    margin-left: 1200%;
+    margin-top: -300%;
+   
+  
+
+}
+
+.area-mariana .fa-linkedin:hover{
+    color: var(--color-primary4);
+}
+
+.area-mariana .fa-github {
+    color: var(--color-neutra1);
+    width: 100%;
+    height: 100%;
+    margin-left: 1500%;
+    margin-top: -300%;
+   
+  
+
+}
+
+.area-mariana .fa-github:hover{
+    color: var(--color-primary4);
+}
+
